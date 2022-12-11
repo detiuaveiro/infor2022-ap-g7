@@ -1,0 +1,194 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Sono}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=8f6424e4cfc36f30f97d7035ef5b9c97}{%
+           family={saúde},
+           familyi={s\bibinitperiod},
+           prefix={hyguia},
+           prefixi={h\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f6424e4cfc36f30f97d7035ef5b9c97}
+      \strng{fullhash}{8f6424e4cfc36f30f97d7035ef5b9c97}
+      \strng{bibnamehash}{8f6424e4cfc36f30f97d7035ef5b9c97}
+      \strng{authorbibnamehash}{8f6424e4cfc36f30f97d7035ef5b9c97}
+      \strng{authornamehash}{8f6424e4cfc36f30f97d7035ef5b9c97}
+      \strng{authorfullhash}{8f6424e4cfc36f30f97d7035ef5b9c97}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Acedido a 9 de dezembro 2022]}
+      \field{title}{Porque sonhamos? Entenda os mistérios do sonho!}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.hygiasaude.com.br/discussoes/qualidade-do-sono/porque-sonhamos-entenda-os-misterios-do-sonho
+      \endverb
+      \verb{url}
+      \verb https://www.hygiasaude.com.br/discussoes/qualidade-do-sono/porque-sonhamos-entenda-os-misterios-do-sonho
+      \endverb
+    \endentry
+    \entry{web1}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=083c94d08cb60810cc86e4a02a578c99}{%
+           family={Oliveira},
+           familyi={O\bibinitperiod},
+           given={Sibele},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{083c94d08cb60810cc86e4a02a578c99}
+      \strng{fullhash}{083c94d08cb60810cc86e4a02a578c99}
+      \strng{bibnamehash}{083c94d08cb60810cc86e4a02a578c99}
+      \strng{authorbibnamehash}{083c94d08cb60810cc86e4a02a578c99}
+      \strng{authornamehash}{083c94d08cb60810cc86e4a02a578c99}
+      \strng{authorfullhash}{083c94d08cb60810cc86e4a02a578c99}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Acedido a 9 de dezembro 2022]}
+      \field{title}{Dá para comandar seus sonhos: entenda o sonho}
+      \field{year}{2019}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.uol.com.br/vivabem/noticias/redacao/2019/11/13/da-para-comandar-seus-sonhos-entenda-o-sonho-lucido-e-como-ter-um.htm?cmpid=copiaecola
+      \endverb
+      \verb{url}
+      \verb https://www.uol.com.br/vivabem/noticias/redacao/2019/11/13/da-para-comandar-seus-sonhos-entenda-o-sonho-lucido-e-como-ter-um.htm?cmpid=copiaecola
+      \endverb
+    \endentry
+    \entry{web2}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=2c9aab68402f807aa50a4f8e6f3b335e}{%
+           family={Mota},
+           familyi={M\bibinitperiod},
+           given={P.H},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{2c9aab68402f807aa50a4f8e6f3b335e}
+      \strng{fullhash}{2c9aab68402f807aa50a4f8e6f3b335e}
+      \strng{bibnamehash}{2c9aab68402f807aa50a4f8e6f3b335e}
+      \strng{authorbibnamehash}{2c9aab68402f807aa50a4f8e6f3b335e}
+      \strng{authornamehash}{2c9aab68402f807aa50a4f8e6f3b335e}
+      \strng{authorfullhash}{2c9aab68402f807aa50a4f8e6f3b335e}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Acedido a 9 de dezembro 2022]}
+      \field{title}{Sonhos lúcidos, o que são? Efeitos, riscos e como tê-los}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://segredosdomundo.r7.com/sonhos-lucidos
+      \endverb
+      \verb{url}
+      \verb https://segredosdomundo.r7.com/sonhos-lucidos
+      \endverb
+    \endentry
+    \entry{web3}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=6be6a48ade2e9427c04259f3fc021641}{%
+           family={Anónimo},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{6be6a48ade2e9427c04259f3fc021641}
+      \strng{fullhash}{6be6a48ade2e9427c04259f3fc021641}
+      \strng{bibnamehash}{6be6a48ade2e9427c04259f3fc021641}
+      \strng{authorbibnamehash}{6be6a48ade2e9427c04259f3fc021641}
+      \strng{authornamehash}{6be6a48ade2e9427c04259f3fc021641}
+      \strng{authorfullhash}{6be6a48ade2e9427c04259f3fc021641}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Acedido a 9 de dezembro 2022]}
+      \field{title}{Sonho e Sonhos: bases neurobiológicas, atividade cerebral e teorias interpretativas de seu conteúdo}
+      \field{year}{2014}
+      \true{nocite}
+      \verb{urlraw}
+      \verb http://cienciasecognicao.org/neuroemdebate/arquivos/1924
+      \endverb
+      \verb{url}
+      \verb http://cienciasecognicao.org/neuroemdebate/arquivos/1924
+      \endverb
+    \endentry
+    \entry{web4}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ac037c61854d527f164f8e9d23df1918}{%
+           family={anonimo},
+           familyi={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac037c61854d527f164f8e9d23df1918}
+      \strng{fullhash}{ac037c61854d527f164f8e9d23df1918}
+      \strng{bibnamehash}{ac037c61854d527f164f8e9d23df1918}
+      \strng{authorbibnamehash}{ac037c61854d527f164f8e9d23df1918}
+      \strng{authornamehash}{ac037c61854d527f164f8e9d23df1918}
+      \strng{authorfullhash}{ac037c61854d527f164f8e9d23df1918}
+      \field{extraname}{1}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Acedido a 9 de dezembro 2022]}
+      \field{title}{6 teorias que explicam porque sonhamos}
+      \field{year}{2018}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.tuasaude.com/porque-sonhamos
+      \endverb
+      \verb{url}
+      \verb https://www.tuasaude.com/porque-sonhamos
+      \endverb
+    \endentry
+    \entry{web5}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=ac037c61854d527f164f8e9d23df1918}{%
+           family={anonimo},
+           familyi={a\bibinitperiod}}}%
+      }
+      \strng{namehash}{ac037c61854d527f164f8e9d23df1918}
+      \strng{fullhash}{ac037c61854d527f164f8e9d23df1918}
+      \strng{bibnamehash}{ac037c61854d527f164f8e9d23df1918}
+      \strng{authorbibnamehash}{ac037c61854d527f164f8e9d23df1918}
+      \strng{authornamehash}{ac037c61854d527f164f8e9d23df1918}
+      \strng{authorfullhash}{ac037c61854d527f164f8e9d23df1918}
+      \field{extraname}{2}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{[Acedido a 9 de dezembro 2022]}
+      \field{title}{Por que sonhamos}
+      \field{year}{2015}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://sonoemedicina.com.br/sono/por-que-sonhamos
+      \endverb
+      \verb{url}
+      \verb https://sonoemedicina.com.br/sono/por-que-sonhamos
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
