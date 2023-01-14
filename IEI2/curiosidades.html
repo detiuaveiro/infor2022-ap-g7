@@ -129,6 +129,40 @@
       O sonhos tornam-se assim essenciais no restauro da saúde mental de cada um, \textbf{restablecendo um novo equibilibrio eletroquimico no cérebro}, prevenindo assim a sobcarga dos circuitos neuronais de cada um e, para além disso, faz com que sejam ainda proessados os acontecimentos diários, “armazenando” tudo o que é essencial e “processando” e até mesmo “eliminando” o restante.
   Dado que o ato de sonhar é natural, este ato deve assim ser utilizado a favor da saude mental de cada um e por isso deve ser tido em contado como um sistema natural de cura psicológica. Para que isso aconteça, é apenas necessário saber trabalhar estes acontecimentos com técnicas especificas que contribuam para o autoconhecimento de cada um. Para além do mais, é importante resaltar a criativia inerte constante que acontece durante todo este processo, sendo que este visa uma uma constante busca por souções.
   </p>
+</div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<body>
+
+<canvas id="myChart" 
+style="width: 50px;
+    max-width:600px;
+    margin-left: auto;
+    margin-right: auto;">
+    </canvas>
+
+<script>
+var xValues = ["Bebé", "Criança", "Adolescente", "Adulto", "Idoso"];
+var yValues = [14, 13, 9, 8, 7.5];
+var barColors = [" #fc5228", "#4267B2","#F2B705","green","#8accf7"];
+
+new Chart("myChart", {
+type: "bar",
+data: {
+  labels: xValues,
+  datasets: [{
+    backgroundColor: barColors,
+    data: yValues
+  }]
+},
+options: {
+  legend: {display: false},
+  title: {
+    display: true,
+    text: "Horas de Sono necessárias"
+  }
+}
+});
+</script>
   <p class="c1">
       Com o passar dos anos, foi possível atribuir-se três caminhos distintos sobre a origem dos sonhos. O recordar da vida onírica é  um peça bastante importante para o autoconhecimento  a ser utilizado para ampliar a compreensão sobre a vida e sobre o que rodeia cada um. Isso traz uma resolução de problemas através de processos bastante  criativos. Durante uma sessão de psicanálise, as pessoas procurar chegar aos temas que estão bastante bem arrumados no seu inconsciente. Sendo que para Freud, “os sonhos são uma estrada para o inconsciente”.
   </p>

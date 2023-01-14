@@ -146,38 +146,6 @@
       lúcidos.
       
     </p>
-  </div>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-<body>
-
-<canvas id="myChart" 
-style="width: 50px;
-      max-width:600px;align-items:center;">
-      </canvas>
-
-<script>
-var xValues = ["Bebé", "Criança", "Adolescente", "Adulto", "Idoso"];
-var yValues = [14, 13, 9, 8, 7.5];
-var barColors = [" #fc5228", "#4267B2","#F2B705","green","#8accf7"];
-
-new Chart("myChart", {
-  type: "bar",
-  data: {
-    labels: xValues,
-    datasets: [{
-      backgroundColor: barColors,
-      data: yValues
-    }]
-  },
-  options: {
-    legend: {display: false},
-    title: {
-      display: true,
-      text: "Horas de Sono necessárias"
-    }
-  }
-});
-</script>
 
 </body>
 
@@ -255,6 +223,7 @@ new Chart("myChart", {
     position: absolute;
     left: 0;
     top: 100px;
+
     width: 100%;
     background: #AFAFB6;
     }
