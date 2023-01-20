@@ -146,14 +146,32 @@
     <p>
         Links úteis para a realização do trabalho:
         <li><a href="https://bootstrap-vue.org/">Bootstrap </a></li>
+        <li><a href="https://bootstrap-vue.org/">W3Schools </a></li>
+
 
     </p>
     <p>
       Localização da Instituição:
     </p>
-    <p>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96894.9884384428!2d-8.789298037499947!3d40.63057909999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aa4e1bda2b%3A0xd70b976749475485!2sUniversidade%20de%20Aveiro!5e0!3m2!1spt-PT!2spt!4v1673992759470!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </p>
+    <button id="open-menu-button" onclick="openMenu()">Abrir mapa</button>
+<div id="menu" style="display: none;">
+  <a href="#"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96894.9884384428!2d-8.789298037499947!3d40.63057909999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aa4e1bda2b%3A0xd70b976749475485!2sUniversidade%20de%20Aveiro!5e0!3m2!1spt-PT!2spt!4v1673992759470!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a>
+ 
+</div>
+<script>function openMenu() {
+  var menu = document.getElementById("menu");
+  var button = document.getElementById("open-menu-button");
+  if (menu.style.display === "none") {
+    menu.style.display = "block";
+    button.innerHTML = "Fechar mapa";
+  } else {
+    menu.style.display = "none";
+    button.innerHTML = "Abrir mapa";
+  }
+}
+</script>
+
+    
          
       </div>
 
