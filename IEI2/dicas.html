@@ -109,7 +109,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="#">Conclusão</a>
+        <a class="nav-link active" href="conclusao.html">Conclusão</a>
       </li>
       <li class="nav-item">
         <a class="nav-link active" href="acerca_de.html">Acerca de</a>
@@ -121,18 +121,161 @@
       <p>A realidade é que é necessário dizer que os sonhos lúcidos são esporádicos e imprevisíveis. Apesar disso, foi cientificamente comprovado que os sonhos lúcidos podem ser induzidos, há cada vez mais pessoas que usam técnicas diferentes para entrar nos sonhos lúcidos como preferir.
         O lado positivo é que qualquer cidadão pode aprender essas técnicas e utiliazá-las para entrar em sonhos lúcidos. Tal como qualquer músculo, o cérebro também consegue ser trabalhado, logo, através de algumas estratégias é possível sonhar-se de forma lúcida.</p>
       <ul>
-        <h5>Dicas:</h5>
         
-        <li>Acorde 2h antes da hora habitual e permaneça acordada durante 20 minutos:
-          Pode sempre arrumar os tachos lá de casa….
-          (A ideia é estimular o cérebro consciente numa altura em que há grande
-          probabilidade de estarmos no sono REM, o sono dos sonhos.)</li>
-        <li>Quando acordar de manhã anote o que se lembra do sonho. Não é grave se não
-          se lembrar, o que é importante é criar o hábito. Com o tempo as memórias
-          virão...</li>
-        <li>Durante o dia pergunte-se frequentemente: “Estarei a sonhar?”
-          Antes de adormecer pense “saberei que estou a sonhar” …
-          Isso transformará a consciência do seu sonho num hábito automático.</li>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #474e5d;
+  font-family: Helvetica, sans-serif;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline {
+  position: left;
+  max-width: 1200px;
+  margin: 0 left;
+}
+
+/* The actual timeline (the vertical ruler) */
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 70%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+
+
+/* Place the container to the left */
+.left {
+  left: 0;
+}
+
+/* Place the container to the right */
+.right {
+  left: 50%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 3000px;
+  border: medium solid white;
+  border-width: px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.content {
+  padding: 2px 3px;
+  
+  position: relative;
+  border-radius: 1px;
+}
+
+/* Media queries - Responsive timeline on screens less than 600px wide */
+@media screen and (max-width: 600px) {
+  /* Place the timelime to the left */
+  .timeline::after {
+  left: 31px;
+  }
+  
+  /* Full-width containers */
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  /* Make sure that all arrows are pointing leftwards */
+  .container::before {
+  left: 60px;
+  
+  border-width: 10px 10px 10px 0;
+  
+  }
+
+  
+  /* Make all right containers behave like the left ones */
+  .right {
+  left: 0%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="timeline">
+  <div class="container left">
+    <div class="content">
+      <h2>Dica 1</h2>
+      <p>Acorde 2h antes da hora habitual e permaneça acordada durante 20 minutos:
+        Pode sempre arrumar os tachos lá de casa….
+        (A ideia é estimular o cérebro consciente numa altura em que há grande
+        probabilidade de estarmos no sono REM, o sono dos sonhos.)</p>
+    </div>
+  </div>
+  <div class="container right">
+    <div class="content">
+      <h2>Dica 2</h2>
+      <p>Quando acordar de manhã anote o que se lembra do sonho. Não é grave se não
+        se lembrar, o que é importante é criar o hábito. Com o tempo as memórias
+        virão...</p>
+    </div>
+  </div>
+  <div class="container left">
+    <div class="content">
+      <h2>Dica 3</h2>
+      <p>Durante o dia pergunte-se frequentemente: “Estarei a sonhar?”
+        Antes de adormecer pense “saberei que estou a sonhar” …
+        Isso transformará a consciência do seu sonho num hábito automático.</p>
+    </div>
+  
+</div>
+
+</body>
+        
+       
       </ul>  
       
     </div>
@@ -436,7 +579,7 @@
         text-align:left;
         font-family:"Amatic SC", sans-serif;
         font-weight: bold;
-        font-size: 65px;
+        font-size: 40px;
 
       }
 
