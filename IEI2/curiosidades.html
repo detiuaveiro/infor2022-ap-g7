@@ -67,7 +67,7 @@
     <style>
       h1{
         text-align:center;
-        font-size: 70px;
+        font-size: 90px;
         font-weight: bold;
         font-family:"Amatic SC", sans-serif;
       } 
@@ -78,10 +78,10 @@
     <ul class="nav justify-content-center">
     </li>
       <li class="nav-item">
-        <a class="nav-link active" href="home.html">Ínicio</a>
+        <a class="nav-link active" href="home.html"><strong>Ínicio</strong></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" aria-current="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Sonhos</a>
+        <a class="nav-link" aria-current="button" data-bs-toggle="dropdown" aria-expanded="false" href="#"><strong>Sonhos</strong></a>
         <div class="dropdown">
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="o_que_os_sonhos_significam.html">O que os sonhos significam</a></li>
@@ -92,7 +92,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" aria-current="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Sonhos Lúcidos</a>
+        <a class="nav-link" aria-current="button" data-bs-toggle="dropdown" aria-expanded="false" href="#"><strong>Sonhos Lúcidos</strong></a>
         <style>
           .nav-link{
             color:black;
@@ -114,14 +114,15 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="conclusao.html">Conclusão</a>
+        <a class="nav-link active" href="conclusao.html"><strong>Conclusão</strong></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="acerca_de.html">Acerca de</a>
+        <a class="nav-link active" href="acerca_de.html"><strong>Acerca de</strong></a>
       </li>
     </ul>
     <div class="c1">
-    <h4 > Curiosidades</h4>
+    <h4 ><strong>Curiosidades</strong></h4>
+    <br></br>
     <p>Sonhos lúcidos tem muito que se lhe diga. Na verdade, acredita-se que os
       egípcios tinham os primeiros registos de sonhos lúcidos de sempre. Eles acre-
       ditavam que, por meio do Ba, estavam a viver dentro de seus sonhos. Assim,
@@ -138,40 +139,41 @@
         plemento pode gerar problemas como neuropatia sensorial, que gera dormência
         e perda de sensibilidade nas extremidades.</p> 
     </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
-<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+    <body>
 
-<canvas id="myChart" 
-style="width: 50px;
-    max-width:600px;
-    margin-left: auto;
-    margin-right: auto;">
-    </canvas>
+    <canvas id="myChart" 
+    style="width: 50px;
+        max-width:600px;
+        margin-left: auto;
+        margin-right: auto;">
+        </canvas>
 
-<script>
-var xValues = ["Bebé", "Criança", "Adolescente", "Adulto", "Idoso"];
-var yValues = [14, 13, 9, 8, 7.5];
-var barColors = [" #fc5228", "#4267B2","#F2B705","green","#8accf7"];
+    <script>
+    var xValues = ["Bebé", "Criança", "Adolescente", "Adulto", "Idoso"];
+    var yValues = [14, 13, 9, 8, 7.5];
+    var barColors = [" #fc5228", "#4267B2","#F2B705","green","#8accf7"];
 
-new Chart("myChart", {
-type: "bar",
-data: {
-  labels: xValues,
-  datasets: [{
-    backgroundColor: barColors,
-    data: yValues
-  }]
-},
-options: {
-  legend: {display: false},
-  title: {
-    display: true,
-    text: "Horas de Sono necessárias"
-  }
-}
-});
+    new Chart("myChart", {
+    type: "bar",
+    data: {
+      labels: xValues,
+      datasets: [{
+        backgroundColor: barColors,
+        data: yValues
+      }]
+    },
+    options: {
+      legend: {display: false},
+      title: {
+        display: true,
+        text: "Horas de Sono necessárias"
+      }
+    }
+    });
+    
 </script>
-
+<br></br>
  </div>
   <div>
     <footer>
@@ -236,6 +238,7 @@ options: {
     .c1{
     margin: 100px;
     margin-bottom: 2opx;
+    font-size: 25px;
     }
     #friends{
       justify-content: right;
@@ -483,6 +486,7 @@ options: {
       h4{
         text-align:left;
         font-family:"Montserrat", sans-serif;
+        font-size: 40px;
       
       }
       body{

@@ -71,7 +71,7 @@
     <style>
       h1{
         text-align:center;
-        font-size: 70px;
+        font-size: 90px;
         font-weight: bold;
         font-family:"Amatic SC", sans-serif;
       } 
@@ -82,10 +82,10 @@
     <ul class="nav justify-content-center">
     </li>
       <li class="nav-item">
-        <a class="nav-link active" href="home.html">Ínicio</a>
+        <a class="nav-link active" href="home.html"><strong>Ínicio</strong></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" aria-current="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Sonhos</a>
+        <a class="nav-link" aria-current="button" data-bs-toggle="dropdown" aria-expanded="false" href="#"><strong>Sonhos</strong></a>
         <div class="dropdown">
           <ul class="dropdown-menu">
             <li><a class="dropdown-item" href="o_que_os_sonhos_significam.html">O que os sonhos significam</a></li>
@@ -96,7 +96,7 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link" aria-current="button" data-bs-toggle="dropdown" aria-expanded="false" href="#">Sonhos Lúcidos</a>
+        <a class="nav-link" aria-current="button" data-bs-toggle="dropdown" aria-expanded="false" href="#"><strong>Sonhos Lúcidos</strong></a>
         <style>
           .nav-link{
             color:black;
@@ -118,28 +118,29 @@
         </div>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="conclusao.html">Conclusão</a>
+        <a class="nav-link active" href="conclusao.html"><strong>Conclusão</strong></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link active" href="acerca_de.html">Acerca de</a>
+        <a class="nav-link active" href="acerca_de.html"><strong>Acerca de</strong></a>
       </li>
     </ul>
     <div>
       <div class="c1">
-      <h4> Acerca de</h4>
+      <h4><strong>Acerca de</strong></h4>
+      <br></br>
     <p> Este projeto foi desenvolvido no âmbito da disciplina de Introdução à Engenharia Informática (IEI) pelas alunas:
     </p>
     <p>
         - Martina Duque 
     </p>
     <p>
-        - Sofia Marrafa
+        - Sofia Marrafa 
     </p>
     <p>
-        pertencentes à Licenciatura do curso de Engenharia dos Computadores e Informática na Universidade de Aveiro. 
+        As autoras pertencem à Licenciatura do curso de Engenharia dos Computadores e Informática na Universidade de Aveiro. 
     </p>
     <p>
-        Neste projeto, ambas as alunos contribuiram para o bom sucesso do mesmo e por isso a classificação atribuida para a cada uma sobre a sua contribuição é de 50%.
+        Neste projeto, ambas as alunas contribuiram para o bom sucesso do mesmo sendo que o desenpenho foi de ambas e por isso a classificação atribuida para a cada uma sobre a sua contribuição é de 50%.
 
     </p>
     <p>
@@ -157,6 +158,9 @@
     <p>
       Localização da Instituição:
     </p>
+    <a class="hero-text button" href="teste_home.html"> 
+      <button type="button"  class="btn btn-outline-warning">Mapa</button>
+    </a>
     <button id="btn btn-outline-warning" onclick="openMenu()">Abrir mapa</button>
 <div id="menu" style="display: none;">
   <a href="#"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96894.9884384428!2d-8.789298037499947!3d40.63057909999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aa4e1bda2b%3A0xd70b976749475485!2sUniversidade%20de%20Aveiro!5e0!3m2!1spt-PT!2spt!4v1673992759470!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a>
@@ -248,6 +252,7 @@
     .c1{
       margin: 100px;
       margin-bottom: 2opx;
+      font-size: 25px;
     }
     #friends{
       justify-content: right;
@@ -499,6 +504,7 @@
       h4{
         text-align:left;
         font-family:"Montserrat", sans-serif;
+        font-size: 40px;
       
       }
       body{
@@ -511,6 +517,65 @@
         display: flex;
         justify-content: center;        
       }
+      .btn {
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      color: #212529;
+      background: transparent;
+      border-color: transparent;
+      border-radius: 0.375rem;
+      box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.15),0 1px 1px rgba(0, 0, 0, 0.075);
+      display: inline-block;
+      text-align: center;
+      text-decoration: none;
+      vertical-align: middle;
+      cursor: pointer;
+      transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+    .btn:focus{
+      box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5);
+    }
+    .btn:hover{
+      border-color: transparent;
+    }
+    .btn:disabled{
+      opacity: 0.65;
+    }
+
+    .btn-outline-warning{
+      color: #ffc107;
+      background-color: transparent;
+      border: 1px solid #ffc107;
+      box-sizing: border-box;
+      margin-top: 20px;
+      padding: 0px 5px 0 5px;
+      width:130px;
+      height: 40px;
+    }
+    .btn-outline-warning:hover{
+      color: #000;
+      background-color: #ffc107;
+      border-color: #ffc107;
+    }
+    
+    .btn-outline-warning:active{
+      color: #ffc107;
+      border-color: #ffc107;
+      color: #000;
+      background-color: #ffc107;
+      color: #ffc107;
+      box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    }
+    
+    .btn-outline-warning:disabled{
+      color: #ffc107;
+      background-color:  transparent;
+      border-color: #ffc107;
+    }
+    .btn-outline-warning:focus{
+      box-shadow: rgb(255,193,7);
+    }
 
       
       
