@@ -137,69 +137,75 @@
   
    
 <body>
-
+  <br></br>
   <canvas id="myChart" 
   style="width: 50px;
-      max-width:600px;
+      max-width:6000px;
       margin-left: auto;
       margin-right: auto;">
       </canvas>
 
-<script>
-var xValues = ["Martina Duque", "Sofia Marrafa"];
-var yValues = [50, 50];
-var barColors = [
-"#F2B705", "#4267B2",
-  
-];
+  <script>
+  var xValues = ["Martina Duque", "Sofia Marrafa"];
+  var yValues = [50,50];
+  var barColors = [
+  "#F2B705", "#4267B2",
+    
+  ];
 
-new Chart("myChart", {
-  type: "doughnut",
-  data: {
-    labels: xValues,
-    datasets: [{
-      backgroundColor: barColors,
-      data: yValues
-    }]
-  },
-  options: {
-    title: {
-      display: true,
-      text: "Trabalho desenvolvido por"
-      
+  new Chart("myChart", {
+    type: "doughnut",
+    data: {
+      labels: xValues,
+      datasets: [{
+        backgroundColor: barColors,
+        data: yValues
+      }]
+    },
+    options: {
+      title: {
+        display: true,
+        text: "Trabalho desenvolvido por:"
+        
+      }
     }
+  });
+  </script>
+
+
+  <img id="imagens/yes.gif" src="imagens/yes.gif" style="height: 130px; width: 200px; margin-top: 0px; margin-left: 500px;" onclick="showInfo()">
+  <script>
+  function showInfo() {
+    document.getElementById("my-info").innerHTML = "O xjbjsg gscvscvshb hscdbchbchhdibxibhidwbbbbddcbk";
   }
-});
-</script>
+  </script>
 
+  </body>
+  <style>
+    .c4 {
+      font-size: 30px;
+    }
+    .c7{
+      float: left;
+      width: 50%;
 
-<img id="imagens/yes.gif" src="imagens/yes.gif" style="height: 130px; width: 200px; margin-top: 0px; margin-left: 500px;" onclick="showInfo()">
-<script>
-function showInfo() {
-  document.getElementById("my-info").innerHTML = "O xjbjsg gscvscvshb hscdbchbchhdibxibhidwbbbbddcbk";
-}
-</script>
-
-</body>
-<style>
-  .c4 {
-    font-size: 30px;
-  }
-  .c7{
-    float: left;
-    width: 50%;
-
-  }
-  
-  </style>
+    }
+    
+    </style>
 
 </div>  
 
 <div class="c10">
+  <div>
+    Este trabalho foi realizado, no âmbito da disciplina de Introdução à Engenharia Informática <strong>(IEI)</strong>, pelas alunas Martina Duque e Sofia Marrafa, estudantes
+    de Licenciatura de Engenharia dos Computadores e Informática na Universida de Aveiro.
+    <br></br>
+
+  </div>
     <p class="c4">
-      &#x1F465;Link do GitHub: 
+      &#x1F465;<strong>Link do GitHub:</strong> 
         <li><a href="https://github.com/detiuaveiro/infor2022-ap-g7">
-            <button class="btn warning">GitHub</button>
+            <button class="btn warning"><strong>GitHub</strong></button>
         </a></li>
     
     </p>
@@ -208,7 +214,7 @@ function showInfo() {
     </style>
 <div></div>  
     <p class="c4">
-      &#128270; Links úteis para a realização do trabalho:
+      &#128270; <strong>Links úteis para a realização do trabalho:</strong>
       <meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
 .btn {
@@ -249,33 +255,25 @@ function showInfo() {
   background: #4267B2;;
   color: white;
 }
-
-
 </style>
 
-
-
   <li><a href="https://www.w3schools.com/">
-<button class="btn success">W3Schools</button>
+<button class="btn success"><strong>W3Schools</strong></button>
 </a></li>
 <li><a href="https://bootstrap-vue.org/">
-<button class="btn info">Bootstrap</button>
+<button class="btn info"><strong>Bootstrap</strong></button>
 </a></li>
-
-
-       
 
 
     </p>
 </div>
 
     <p class="c4">
-      &#128205;Localização da Instituição:
+      &#128205;<strong>Localização da Instituição:</strong>
     </p>
-    <a class="hero-text button" href="teste_home.html"> 
-      <button type="button"  class="btn btn-outline-warning">Mapa</button>
-    </a>
-    <button id="btn btn-outline-warning" onclick="openMenu()">Abrir mapa</button>
+    <li><a class="hero-text button">
+      <button type="button"  class="btn btn-outline-warning" onclick="openMenu()"><strong>Mapa</strong></button>
+    </a></li>
 <div id="menu" style="display: none;">
   <a href="#"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96894.9884384428!2d-8.789298037499947!3d40.63057909999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd23a2aa4e1bda2b%3A0xd70b976749475485!2sUniversidade%20de%20Aveiro!5e0!3m2!1spt-PT!2spt!4v1673992759470!5m2!1spt-PT!2spt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></a>
  
